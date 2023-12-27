@@ -1,0 +1,281 @@
+body {
+  background-color: #200832;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+main {
+  margin: 0;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+}
+
+.header-container-right {
+  display: flex;
+  flex-direction: row;
+  margin-right: 3vw;
+  z-index: 1;
+}
+
+#menu-burguer-button {
+  display: none;
+}
+
+#menu-list {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+#menu-list li {
+  cursor: pointer;
+  padding: 1.3vw;
+}
+
+#menu-list li:hover {
+  box-sizing: border-box;
+  scale: 140%;
+}
+
+#login-button {
+  background-color: #523470;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 20px 30px;
+  margin: 30px;
+}
+
+#login-button:hover {
+  scale: 120%;
+}
+
+#container-image {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -140px;
+}
+
+.second-container {
+  display: flex;
+  justify-content: center;
+}
+
+#cards-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#cards-header h3 {
+  color: #751dde;
+}
+
+#cards-header h1 {
+  color: white;
+  margin-top: 0;
+}
+
+#cards-header p {
+  color: rgb(153, 150, 150);
+  margin-top: 0;
+  width: 65vw;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.card {
+  display: flex;
+  margin: 10px;
+  width: 450px;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card  p{
+  color: rgb(153, 150, 150);
+}
+
+.astronomy-container {
+  display: flex;
+  margin: 180px 280px;
+
+}
+
+.astronomy-container h3 {
+  color: #751dde;
+}
+
+.astronomy-container h1 {
+  color: white;
+}
+
+.astronomy-container p {
+  color: rgb(153, 150, 150);
+}
+
+#start-button {
+  background-color: #523470;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 20px 30px;
+  margin: 40px 0;
+}
+
+.night-sky-container {
+  display: flex;
+  margin: -100px 280px 0 150px;
+
+}
+
+.night-sky-container h3 {
+  color: #751dde;
+}
+
+.night-sky-container h1 {
+  color: white;
+}
+
+.night-sky-container p {
+  color: rgb(153, 150, 150);
+}
+
+#search-button {
+  background-color: #523470;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 20px 30px;
+  margin: 40px 0;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 200px 200px 0px 200px;
+}
+
+#menu2-list {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+#menu2 li {
+  color: rgb(158, 195, 228);
+  cursor: pointer;
+  padding: 1.3vw;
+}
+
+#menu2 li:nth-child(1) {
+  color: rgb(153, 150, 150);
+}
+
+#menu2 li:hover {
+  box-sizing: border-box;
+  scale: 140%;
+}
+
+footer img{
+  width: 110vw;
+}
+
+@media screen and (max-width: 768px){
+  #menu-list {
+    display: none;
+  }
+
+  #menu-burguer-button {
+    background-color: #523470;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    padding: 20px 30px;
+    margin: 30px;
+  }
+
+  .second-container {
+    display: none;
+  }
+
+  
+  #container-image {
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    margin-top: -140px;
+  }
+  
+  #cards-header h1 {
+    margin-left: 15%;
+  }
+  
+  .astronomy-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+
+  #astro-img {
+    display: none;
+  }
+  
+  .night-sky-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+  #night-sky-img {
+    display: none;
+  }
+  
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 20px 0px 20px;
+  }
+
+  #menu2 li:hover {
+    box-sizing: border-box;
+    scale: 140%;
+  }
+  
+}
